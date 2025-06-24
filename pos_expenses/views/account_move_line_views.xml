@@ -1,0 +1,36 @@
+<odoo>
+
+    <record id="view_preferred_substance_tree" model="ir.ui.view">
+        <field name="name">preferred.substance.tree</field>
+        <field name="model">preferred.substance</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_preferred_substance_form" model="ir.ui.view">
+        <field name="name">preferred.substance.form</field>
+        <field name="model">preferred.substance</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_preferred_substance" model="ir.actions.act_window">
+        <field name="name">Preferred Substances</field>
+        <field name="res_model">preferred.substance</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_preferred_substance" name="Preferred Substances"
+              parent="contacts.res_partner_menu_config"
+              action="action_preferred_substance"/>
+</odoo>

@@ -1,0 +1,64 @@
+<odoo>
+    <data noupdate="1">
+
+        <!-- Weekly Activities Cron -->
+        <record id="ir_cron_schedule_weekly_activities" model="ir.cron">
+            <field name="name">Schedule Weekly Activities</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">model._cron_create_activities()</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">weeks</field>
+            <field name="numbercall">12</field>
+            <field name="active">True</field>
+        </record>
+
+        <!-- Biweekly Activities Cron -->
+        <record id="ir_cron_schedule_biweekly_activities" model="ir.cron">
+            <field name="name">Schedule Biweekly Activities</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">model._cron_create_activities()</field>
+            <field name="interval_number">2</field>
+            <field name="interval_type">weeks</field>
+            <field name="numbercall">12</field>
+            <field name="active">True</field>
+        </record>
+
+        <!-- Monthly Activities Cron -->
+        <record id="ir_cron_schedule_monthly_activities" model="ir.cron">
+            <field name="name">Schedule Monthly Activities</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">model._cron_create_activities()</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">months</field>
+            <field name="numbercall">24</field>
+            <field name="active">True</field>
+        </record>
+
+          <!-- Anniversary Activities Cron -->
+        <record id="ir_cron_schedule_annual_activities" model="ir.cron">
+            <field name="name">Schedule Anniversary Activities</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">model._cron_create_activities()</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">months</field>
+            <field name="numbercall">1</field>
+            <field name="active">True</field>
+        </record>
+          <!-- Monthly Activities Cron -->
+        <record id="ir_cron_schedule_birthday" model="ir.cron">
+            <field name="name">Schedule Birthday Activities</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">model._cron_create_activities()</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">months</field>
+            <field name="numbercall">1</field>
+            <field name="active">True</field>
+        </record>
+
+    </data>
+</odoo>

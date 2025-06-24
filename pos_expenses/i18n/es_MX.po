@@ -1,0 +1,327 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_information
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240522\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-13 05:48+0000\n"
+"PO-Revision-Date: 2024-11-13 05:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_information
+#: model_terms:ir.ui.view,arch_db:partner_information.view_res_partner_form_inherited
+msgid "Additional Information"
+msgstr "Información adicional"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__age
+#: model:ir.model.fields,field_description:partner_information.field_res_users__age
+msgid "Age"
+msgstr "Edad"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__behavior_id
+#: model:ir.model.fields,field_description:partner_information.field_res_users__behavior_id
+msgid "Behavior"
+msgstr "Conducta"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__birth_date
+#: model:ir.model.fields,field_description:partner_information.field_res_users__birth_date
+msgid "Birth date"
+msgstr "Fecha de nacimiento"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__comment
+#: model:ir.model.fields,field_description:partner_information.field_res_users__comment
+msgid "Comment"
+msgstr "Comentario"
+
+#. module: partner_information
+#: model:ir.model,name:partner_information.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_preferred_substance__create_uid
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_relation__create_uid
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_status__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_preferred_substance__create_date
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_relation__create_date
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_status__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_preferred_substance__display_name
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_relation__display_name
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_status__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: partner_information
+#: model:ir.model.fields.selection,name:partner_information.selection__res_partner__marital_status__divorced
+msgid "Divorced"
+msgstr "Divorciado"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__eeg
+#: model:ir.model.fields,field_description:partner_information.field_res_users__eeg
+msgid "EEG"
+msgstr ""
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__entry_date
+#: model:ir.model.fields,field_description:partner_information.field_res_users__entry_date
+msgid "Entry Date"
+msgstr "Fecha de ingreso"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__exit_date
+#: model:ir.model.fields,field_description:partner_information.field_res_users__exit_date
+msgid "Exit Date"
+msgstr "Fecha de egreso"
+
+#. module: partner_information
+#: model:ir.model.fields.selection,name:partner_information.selection__res_partner__genre__female
+msgid "Female"
+msgstr "Femenino"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__first_name
+#: model:ir.model.fields,field_description:partner_information.field_res_users__first_name
+msgid "First Name"
+msgstr "Primer nombre"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__follow_up_date
+#: model:ir.model.fields,field_description:partner_information.field_res_users__follow_up_date
+msgid "Follow-up Date"
+msgstr "Fecha de seguimiento"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__genre
+#: model:ir.model.fields,field_description:partner_information.field_res_users__genre
+msgid "Genre"
+msgstr "Género"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_preferred_substance__id
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_relation__id
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_status__id
+msgid "ID"
+msgstr ""
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__key
+#: model:ir.model.fields,field_description:partner_information.field_res_users__key
+msgid "Key"
+msgstr "Clave"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__last_name
+#: model:ir.model.fields,field_description:partner_information.field_res_users__last_name
+msgid "Last Name"
+msgstr "Apellido"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_preferred_substance__write_uid
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_relation__write_uid
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_status__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_preferred_substance__write_date
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_relation__write_date
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_status__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: partner_information
+#: model:ir.model.fields.selection,name:partner_information.selection__res_partner__genre__male
+msgid "Male"
+msgstr "Masculino"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__marital_status
+#: model:ir.model.fields,field_description:partner_information.field_res_users__marital_status
+msgid "Marital Status"
+msgstr "Estado civil"
+
+#. module: partner_information
+#: model:ir.model.fields.selection,name:partner_information.selection__res_partner__marital_status__married
+msgid "Married"
+msgstr "Casado"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__medical_report_axis_3
+#: model:ir.model.fields,field_description:partner_information.field_res_users__medical_report_axis_3
+msgid "Medical Report/Axis 3"
+msgstr "Reporte médico/Eje 3"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__middle_name
+#: model:ir.model.fields,field_description:partner_information.field_res_users__middle_name
+msgid "Middle Name"
+msgstr "Segudo apellido"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_preferred_substance__name
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_relation__name
+#: model:ir.model.fields,field_description:partner_information.field_res_partner_status__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__origin_city_id
+#: model:ir.model.fields,field_description:partner_information.field_res_users__origin_city_id
+msgid "Origin City"
+msgstr "Ciudad de origen"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__origin_country_id
+#: model:ir.model.fields,field_description:partner_information.field_res_users__origin_country_id
+msgid "Origin Country"
+msgstr "País de origen"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__origin_state_id
+#: model:ir.model.fields,field_description:partner_information.field_res_users__origin_state_id
+msgid "Origin State"
+msgstr "Estado de origen"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__parent_last_name
+#: model:ir.model.fields,field_description:partner_information.field_res_users__parent_last_name
+msgid "Parent Last Name"
+msgstr "Apellido familiar"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__parent_familiar_name
+#: model:ir.model.fields,field_description:partner_information.field_res_users__parent_familiar_name
+msgid "Parent Name"
+msgstr "Nombe familiar"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__parent_phone
+#: model:ir.model.fields,field_description:partner_information.field_res_users__parent_phone
+msgid "Parent Phone"
+msgstr "Teléfono familiar"
+
+#. module: partner_information
+#: model:ir.model,name:partner_information.model_res_partner_relation
+msgid "Partner Relation"
+msgstr "Relación"
+
+#. module: partner_information
+#: model:ir.actions.act_window,name:partner_information.action_res_partner_relation
+#: model:ir.ui.menu,name:partner_information.menu_res_partner_relation
+msgid "Partner Relations"
+msgstr "Relaciones"
+
+#. module: partner_information
+#: model:ir.model,name:partner_information.model_res_partner_status
+msgid "Partner Status"
+msgstr "Status"
+
+#. module: partner_information
+#: model:ir.actions.act_window,name:partner_information.action_res_partner_status
+#: model:ir.ui.menu,name:partner_information.menu_res_partner_status
+msgid "Partner Statuses"
+msgstr "Status"
+
+#. module: partner_information
+#: model:ir.model,name:partner_information.model_preferred_substance
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__preferred_substance_id
+#: model:ir.model.fields,field_description:partner_information.field_res_users__preferred_substance_id
+msgid "Preferred Substance"
+msgstr "Sustancia preferida"
+
+#. module: partner_information
+#: model:ir.actions.act_window,name:partner_information.action_preferred_substance
+#: model:ir.ui.menu,name:partner_information.menu_preferred_substance
+msgid "Preferred Substances"
+msgstr "Sustancias preferidas"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__primary_axis_1
+#: model:ir.model.fields,field_description:partner_information.field_res_users__primary_axis_1
+msgid "Primary/Axis 1"
+msgstr "Primario/Eje 1"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__psychiatric_dx
+#: model:ir.model.fields,field_description:partner_information.field_res_users__psychiatric_dx
+msgid "Psychiatric Dx"
+msgstr "Diagnóstico psiquiátrico"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__real_exit_date
+#: model:ir.model.fields,field_description:partner_information.field_res_users__real_exit_date
+msgid "Real Exit Date"
+msgstr "Fecha real de egreso"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__registration
+#: model:ir.model.fields,field_description:partner_information.field_res_users__registration
+msgid "Registration"
+msgstr "Alta"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__relation_id
+#: model:ir.model.fields,field_description:partner_information.field_res_users__relation_id
+msgid "Relation"
+msgstr "Relación"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__second_name
+#: model:ir.model.fields,field_description:partner_information.field_res_users__second_name
+msgid "Second Name"
+msgstr "Segundo nombre"
+
+#. module: partner_information
+#: model:ir.model.fields.selection,name:partner_information.selection__res_partner__marital_status__single
+msgid "Single"
+msgstr "Soltero"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__status_id
+#: model:ir.model.fields,field_description:partner_information.field_res_users__status_id
+msgid "Status"
+msgstr "Statu"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__tp_axis_2
+#: model:ir.model.fields,field_description:partner_information.field_res_users__tp_axis_2
+msgid "TP/Axis 2"
+msgstr "TP/Eje 2"
+
+#. module: partner_information
+#: model:ir.model.constraint,message:partner_information.constraint_preferred_substance_name_uniq
+#: model:ir.model.constraint,message:partner_information.constraint_res_partner_relation_name_uniq
+#: model:ir.model.constraint,message:partner_information.constraint_res_partner_status_name_uniq
+msgid "The name must be unique!"
+msgstr "El nombre debe ser único"
+
+#. module: partner_information
+#: model:ir.model.fields,field_description:partner_information.field_res_partner__therapist_id
+#: model:ir.model.fields,field_description:partner_information.field_res_users__therapist_id
+msgid "Therapist"
+msgstr "Terapeuta"
+
+#. module: partner_information
+#: model:ir.model.fields.selection,name:partner_information.selection__res_partner__marital_status__widowed
+msgid "Widowed"
+msgstr "Viudo"
